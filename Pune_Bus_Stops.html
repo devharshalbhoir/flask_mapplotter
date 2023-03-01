@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_266904006ca32847389d0c7b8d094397 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_266904006ca32847389d0c7b8d094397" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_266904006ca32847389d0c7b8d094397 = L.map(
+                "map_266904006ca32847389d0c7b8d094397",
+                {
+                    center: [17.893641000000002, 73.61316885788803],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_531d0f9dcd353f8a3f4ff8fbf5fed41c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var marker_756246c00cdd5d9f0812e2be91290bea = L.marker(
+                [17.893641000000002, 73.61316885788803],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_29772ab92364b6559a9fa5060131a949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_756246c00cdd5d9f0812e2be91290bea.setIcon(icon_29772ab92364b6559a9fa5060131a949);
+        
+    
+        var popup_86c7e6ec61a9ddb3d5b37456975cde80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85e5a2cc2935dae00a6021604c7c9c5d = $(`<div id="html_85e5a2cc2935dae00a6021604c7c9c5d" style="width: 100.0%; height: 100.0%;">Mahabaleshwar</div>`)[0];
+                popup_86c7e6ec61a9ddb3d5b37456975cde80.setContent(html_85e5a2cc2935dae00a6021604c7c9c5d);
+            
+        
+
+        marker_756246c00cdd5d9f0812e2be91290bea.bindPopup(popup_86c7e6ec61a9ddb3d5b37456975cde80)
+        ;
+
+        
+    
+    
+            var marker_606733cb6d552a127b3bfd15f0004eda = L.marker(
+                [17.9331112, 73.580839],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_d90b0fb9f404a32248757fc9f5918648 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_606733cb6d552a127b3bfd15f0004eda.setIcon(icon_d90b0fb9f404a32248757fc9f5918648);
+        
+    
+        var popup_03505fce115f9fcd621dd2f75d78d94e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b66bcdd78b42bef9e2991ec6560107 = $(`<div id="html_b5b66bcdd78b42bef9e2991ec6560107" style="width: 100.0%; height: 100.0%;">Pratapgarh Fort</div>`)[0];
+                popup_03505fce115f9fcd621dd2f75d78d94e.setContent(html_b5b66bcdd78b42bef9e2991ec6560107);
+            
+        
+
+        marker_606733cb6d552a127b3bfd15f0004eda.bindPopup(popup_03505fce115f9fcd621dd2f75d78d94e)
+        ;
+
+        
+    
+    
+            marker_606733cb6d552a127b3bfd15f0004eda.bindTooltip(
+                `<div>
+                     Pratapgarh Fort
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb6f5ed3401fc3a7e8522a79ab0ca2cc = L.marker(
+                [17.9410769, 73.707749],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_557db7734e6680d33db56a1273672a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb6f5ed3401fc3a7e8522a79ab0ca2cc.setIcon(icon_557db7734e6680d33db56a1273672a52);
+        
+    
+        var popup_af0a4bfe98162f08eb4a5ca13f26db99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98fe66a665de7646c967f2c2984851a4 = $(`<div id="html_98fe66a665de7646c967f2c2984851a4" style="width: 100.0%; height: 100.0%;">Elephants Point</div>`)[0];
+                popup_af0a4bfe98162f08eb4a5ca13f26db99.setContent(html_98fe66a665de7646c967f2c2984851a4);
+            
+        
+
+        marker_eb6f5ed3401fc3a7e8522a79ab0ca2cc.bindPopup(popup_af0a4bfe98162f08eb4a5ca13f26db99)
+        ;
+
+        
+    
+    
+            marker_eb6f5ed3401fc3a7e8522a79ab0ca2cc.bindTooltip(
+                `<div>
+                     Elephants Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76b39a6dd141e869f2b120229ebc9568 = L.marker(
+                [17.9558207, 73.711598],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_3280ce59e234e28c957e19daa94fa1cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76b39a6dd141e869f2b120229ebc9568.setIcon(icon_3280ce59e234e28c957e19daa94fa1cd);
+        
+    
+        var popup_ce328d4544cc3fc94010680d70401f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1845db70578681b0d4cbf875f3a9e70e = $(`<div id="html_1845db70578681b0d4cbf875f3a9e70e" style="width: 100.0%; height: 100.0%;">Dhom Dam</div>`)[0];
+                popup_ce328d4544cc3fc94010680d70401f9f.setContent(html_1845db70578681b0d4cbf875f3a9e70e);
+            
+        
+
+        marker_76b39a6dd141e869f2b120229ebc9568.bindPopup(popup_ce328d4544cc3fc94010680d70401f9f)
+        ;
+
+        
+    
+    
+            marker_76b39a6dd141e869f2b120229ebc9568.bindTooltip(
+                `<div>
+                     Dhom Dam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5324eac98d065a3d109a0362081148dc = L.marker(
+                [17.9698784, 73.6660606],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_bc450d9d983e261fa73d4de3f43f8949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5324eac98d065a3d109a0362081148dc.setIcon(icon_bc450d9d983e261fa73d4de3f43f8949);
+        
+    
+        var popup_0b01abcc3b8c5939e27daea2c70f531f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61e0527dd663c47a88508a67c4b551c2 = $(`<div id="html_61e0527dd663c47a88508a67c4b551c2" style="width: 100.0%; height: 100.0%;">Strawberry Garden</div>`)[0];
+                popup_0b01abcc3b8c5939e27daea2c70f531f.setContent(html_61e0527dd663c47a88508a67c4b551c2);
+            
+        
+
+        marker_5324eac98d065a3d109a0362081148dc.bindPopup(popup_0b01abcc3b8c5939e27daea2c70f531f)
+        ;
+
+        
+    
+    
+            marker_5324eac98d065a3d109a0362081148dc.bindTooltip(
+                `<div>
+                     Strawberry Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e52101e371a41a90e6924fce7e62cc2d = L.marker(
+                [17.9167623, 73.6400991],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_4dc13154bbf2488e5fb05ad5acf53107 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e52101e371a41a90e6924fce7e62cc2d.setIcon(icon_4dc13154bbf2488e5fb05ad5acf53107);
+        
+    
+        var popup_d08f4b87636f9af9866addd08a76bd9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2ffb9780b66820c54280431c8ef013 = $(`<div id="html_fe2ffb9780b66820c54280431c8ef013" style="width: 100.0%; height: 100.0%;">Artist Point</div>`)[0];
+                popup_d08f4b87636f9af9866addd08a76bd9f.setContent(html_fe2ffb9780b66820c54280431c8ef013);
+            
+        
+
+        marker_e52101e371a41a90e6924fce7e62cc2d.bindPopup(popup_d08f4b87636f9af9866addd08a76bd9f)
+        ;
+
+        
+    
+    
+            marker_e52101e371a41a90e6924fce7e62cc2d.bindTooltip(
+                `<div>
+                     Artist Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f49b2f0b3e9777a422e4245768b6f41 = L.marker(
+                [17.9165953, 73.6381971],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_91fb6f39d7dc13da16f116ed03aa985c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f49b2f0b3e9777a422e4245768b6f41.setIcon(icon_91fb6f39d7dc13da16f116ed03aa985c);
+        
+    
+        var popup_ba980e0c6dd34f0095fb901f0b59eb88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78c115b49a9437ca84f4bd524735b1ea = $(`<div id="html_78c115b49a9437ca84f4bd524735b1ea" style="width: 100.0%; height: 100.0%;">Bombay or Sunset Point</div>`)[0];
+                popup_ba980e0c6dd34f0095fb901f0b59eb88.setContent(html_78c115b49a9437ca84f4bd524735b1ea);
+            
+        
+
+        marker_3f49b2f0b3e9777a422e4245768b6f41.bindPopup(popup_ba980e0c6dd34f0095fb901f0b59eb88)
+        ;
+
+        
+    
+    
+            marker_3f49b2f0b3e9777a422e4245768b6f41.bindTooltip(
+                `<div>
+                     Bombay or Sunset Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb8df5e6eabd837a2e79315540f8a604 = L.marker(
+                [17.9184418, 73.6620599],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_506a04788ebced2e77ad7898a9efd164 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb8df5e6eabd837a2e79315540f8a604.setIcon(icon_506a04788ebced2e77ad7898a9efd164);
+        
+    
+        var popup_c2a7d4124d296f8ccf5eac069b7fcb4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_073c585a904ece0c205a472298ecc095 = $(`<div id="html_073c585a904ece0c205a472298ecc095" style="width: 100.0%; height: 100.0%;">Glen Ogal Lake</div>`)[0];
+                popup_c2a7d4124d296f8ccf5eac069b7fcb4e.setContent(html_073c585a904ece0c205a472298ecc095);
+            
+        
+
+        marker_eb8df5e6eabd837a2e79315540f8a604.bindPopup(popup_c2a7d4124d296f8ccf5eac069b7fcb4e)
+        ;
+
+        
+    
+    
+            marker_eb8df5e6eabd837a2e79315540f8a604.bindTooltip(
+                `<div>
+                     Glen Ogal Lake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7f737ca4e27fe09fdc4dd5f71792ec1 = L.marker(
+                [17.9344744, 73.6687052],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_74b3e03f37a7f08f7c3e9cba95bc4c18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7f737ca4e27fe09fdc4dd5f71792ec1.setIcon(icon_74b3e03f37a7f08f7c3e9cba95bc4c18);
+        
+    
+        var popup_d4327490b4acb935a83e204e3e934f3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c143c3b3383379a5dca95e72bd49067d = $(`<div id="html_c143c3b3383379a5dca95e72bd49067d" style="width: 100.0%; height: 100.0%;">Venna lake boating</div>`)[0];
+                popup_d4327490b4acb935a83e204e3e934f3d.setContent(html_c143c3b3383379a5dca95e72bd49067d);
+            
+        
+
+        marker_e7f737ca4e27fe09fdc4dd5f71792ec1.bindPopup(popup_d4327490b4acb935a83e204e3e934f3d)
+        ;
+
+        
+    
+    
+            marker_e7f737ca4e27fe09fdc4dd5f71792ec1.bindTooltip(
+                `<div>
+                     Venna lake boating
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46b18b3156bbad07741e9c20305146df = L.marker(
+                [17.9378729, 73.584596],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_f7ea770d52eb03b33c7171a26cec70b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46b18b3156bbad07741e9c20305146df.setIcon(icon_f7ea770d52eb03b33c7171a26cec70b0);
+        
+    
+        var popup_c9fbdb83e375c18fd5a704c018f0296a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_407cda51f428027da24ceec7a5901dd9 = $(`<div id="html_407cda51f428027da24ceec7a5901dd9" style="width: 100.0%; height: 100.0%;">Shivkalin Khede Gaon</div>`)[0];
+                popup_c9fbdb83e375c18fd5a704c018f0296a.setContent(html_407cda51f428027da24ceec7a5901dd9);
+            
+        
+
+        marker_46b18b3156bbad07741e9c20305146df.bindPopup(popup_c9fbdb83e375c18fd5a704c018f0296a)
+        ;
+
+        
+    
+    
+            marker_46b18b3156bbad07741e9c20305146df.bindTooltip(
+                `<div>
+                     Shivkalin Khede Gaon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_997fe1bc49ace59fbb404326680888a8 = L.marker(
+                [17.9088411, 73.6580314],
+                {}
+            ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+    
+            var icon_34f5f267f4077fd4b0b3f4cb50f538ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_997fe1bc49ace59fbb404326680888a8.setIcon(icon_34f5f267f4077fd4b0b3f4cb50f538ba);
+        
+    
+        var popup_5559d47141e14243a446471baf9da0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b0932fc97b240422389314f4477380e = $(`<div id="html_5b0932fc97b240422389314f4477380e" style="width: 100.0%; height: 100.0%;">Babington Point</div>`)[0];
+                popup_5559d47141e14243a446471baf9da0fa.setContent(html_5b0932fc97b240422389314f4477380e);
+            
+        
+
+        marker_997fe1bc49ace59fbb404326680888a8.bindPopup(popup_5559d47141e14243a446471baf9da0fa)
+        ;
+
+        
+    
+    
+            marker_997fe1bc49ace59fbb404326680888a8.bindTooltip(
+                `<div>
+                     Babington Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            ant_path_4c39061a3224e87a9351cfeb6ca563d1 = L.polyline.antPath(
+              [[17.9331112, 73.580839], [17.9410769, 73.707749], [17.9558207, 73.711598], [17.9698784, 73.6660606], [17.9167623, 73.6400991], [17.9165953, 73.6381971], [17.9184418, 73.6620599], [17.9344744, 73.6687052], [17.9378729, 73.584596], [17.9088411, 73.6580314]],
+              {"bubblingMouseEvents": true, "color": "blue", "dashArray": [10, 20], "dashOffset": null, "delay": 800, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+        ).addTo(map_266904006ca32847389d0c7b8d094397);
+        
+</script>
+</html>
